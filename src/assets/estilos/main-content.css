@@ -31,7 +31,7 @@
 
 .header_navigation .navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -42,7 +42,7 @@
 .arrow-left, .arrow-right {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 32px;
     height: 32px;
     background: var(--bg-icon);
