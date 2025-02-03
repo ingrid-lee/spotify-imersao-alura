@@ -31,18 +31,23 @@
 
 .header_navigation .navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .header_navigation .navigation .arrow-left {
     margin-right: 1.25rem;
 }
 
+.button-seta {
+    display: flex;
+}
+
 .arrow-left, .arrow-right {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 32px;
     height: 32px;
     background: var(--bg-icon);
